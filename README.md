@@ -81,6 +81,7 @@
 ## 5 模型训练结果分析
 
 ### 1 损失对比曲线分析
+![image](https://github.com/dfhvcfg/-rnn-lstm-gru/assets/57213191/2dd0a781-657d-44a9-8b50-7dd9c3417a2f)
 
 ![1个轮次损失对比曲线](link_to_image1) ![4个轮次损失对比曲线](link_to_image2)
 
