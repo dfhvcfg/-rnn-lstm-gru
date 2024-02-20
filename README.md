@@ -1,1 +1,1 @@
-# -rnn-lstm-gru
+# 人名分类器-rnn-lstm-gru
