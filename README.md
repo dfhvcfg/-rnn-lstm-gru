@@ -78,12 +78,11 @@
 | 4    | 0.616704 | 185  | 0.808  |
 
 
-## 5 模型训练结果分析
+##  模型训练结果分析
 
 ### 1 损失对比曲线分析
-![image](https://github.com/dfhvcfg/-rnn-lstm-gru/assets/57213191/2dd0a781-657d-44a9-8b50-7dd9c3417a2f)
+![image](https://github.com/dfhvcfg/-rnn-lstm-gru/assets/57213191/2dd0a781-657d-44a9-8b50-7dd9c3417a2f)![image](https://github.com/dfhvcfg/-rnn-lstm-gru/assets/57213191/268efffc-1f17-4d1b-b9fa-543ab5617d89)
 
-![1个轮次损失对比曲线](link_to_image1) ![4个轮次损失对比曲线](link_to_image2)
 
 模型训练的损失降低快慢代表模型收敛程度。由图可知，传统RNN的模型第一个轮次开始收敛情况最好，然后是GRU，最后是LSTM，这是因为RNN模型简单参数少，见效快。随着训练数据的增加，GRU效果最好、LSTM效果次之、RNN效果排最后。
 
@@ -91,17 +90,16 @@
 
 ### 2 训练耗时分析
 
-![训练耗时对比图](link_to_image3)
+![image](https://github.com/dfhvcfg/-rnn-lstm-gru/assets/57213191/9268a928-dc7f-45f6-9dce-73511af7e686)
+
 
 模型训练的耗时长短代表模型的计算复杂度，由图可知，也正如我们之前的理论分析，传统RNN复杂度最低，耗时几乎只是后两者的一半，然后是GRU，最后是复杂度最高的LSTM。
 
 ### 3 训练准确率分析
 
-![训练准确率对比图](link_to_image4)
+![image](https://github.com/dfhvcfg/-rnn-lstm-gru/assets/57213191/703439ce-2eab-4a30-8a3b-d4494b0b4169)
+
 
 由图可知，GRU效果最好、LSTM效果次之、RNN效果排最后。
 
-### 4 结论
-
-模型选用一般应通过实验对比，并非越复杂或越先进的模型表现越好，而是需要结合自己的特定任务，从对数据的分析和实验结果中获得最佳答案。
 
